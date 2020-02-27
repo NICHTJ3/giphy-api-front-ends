@@ -15,7 +15,6 @@ app.use(bodyParser.json());
 
 app.get('/search/:searchTerm', (req, res) => {
   const url = `${API_URL}?api_key=${process.env.GIPHY_API_KEY}&q=${req.params.searchTerm}`;
-  console.log(url);
   request(url).pipe(res);
 });
 
