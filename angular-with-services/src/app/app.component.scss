@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  input {
+    margin-right: 1em;
+  }
+}
+.images {
+  column-count: 3;
+}
+img {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+<h1>Giphy search app</h1>
+<form (ngSubmit)="submit()">
+  <label for="searchTerm">Search Term</label>
+  <div class="row">
+    <input
+      [(ngModel)]="searchTerm"
+      class="u-full-width"
+      type="text"
+      id="searchTerm"
+      name="searchTerm"
+    />
+    <button type="submit">Search</button>
+  </div>
+</form>
+<img
+  *ngIf="loading"
+  src="https://media.giphy.com/media/11FuEnXyGsXFba/giphy.gif"
+  alt="loading"
+/>
+<section class="images">
+  <img
+    *ngFor="let image of images"
+    src="{{ image.images.downsized_large.url }}"
+  />
+</section>
