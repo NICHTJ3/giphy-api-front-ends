@@ -4,6 +4,7 @@
   "description": "A simple server to search giphy images",
   "main": "src/index.js",
   "scripts": {
+    "serve": "node src/",
     "test": "npx jest"
   },
   "repository": {
