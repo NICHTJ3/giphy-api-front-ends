@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+}
+
+.row input {
+  margin-right: 1em;
+}
+
+body {
+  width: 80%;
+  margin: 2em auto 0 auto;
+  background: #191f26;
+  color: white;
+}
+
+button {
+  color: white;
+}
+
+.images {
+  column-count: 3;
+}
+
+img {
+  width: 100%;
+}
