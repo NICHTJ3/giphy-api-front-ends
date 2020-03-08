@@ -34,7 +34,7 @@ npm run serve
 
 #### Angular
 ```sh
-cd angular
+cd angular #or cd angular-with-services
 npm i
 npx @angular/cli serve
 ```
