@@ -12,6 +12,6 @@
     "@vue/compiler-sfc": "^3.0.0-rc.1",
     "sass": "^1.26.11",
     "sass-loader": "^10.0.2",
-    "vite": "^1.0.0-rc.1"
+    "vite": "^2.9.13"
   }
 }
