@@ -9,7 +9,7 @@
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.2.45",
     "sass": "^1.26.11",
     "sass-loader": "^10.0.2",
     "vite": "^1.0.0-rc.1"
